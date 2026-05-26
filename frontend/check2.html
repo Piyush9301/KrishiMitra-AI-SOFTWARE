@@ -621,9 +621,9 @@
               </div>
 
               <div class="indicator-card">
-                <strong>Fertilizer</strong>
+                <strong>Light Intensity</strong>
                 <div class="small-muted mb-2">Estimated Presence</div>
-                <div class="indicator-value" style="color:#10b981;" id="fertilizer">-- %</div>
+                <div class="indicator-value" style="color:#10b981;" id="fertilizer">--lux</div>
               </div>
             </div>
 
@@ -887,7 +887,7 @@
         temperature: 24 + Math.random() * 6, // 24-30°C
         humidity: 65 + Math.random() * 10, // 65-75%
         ph: 6.2 + Math.random() * 0.8, // 6.2-7.0
-        fertilizer: 38 + Math.random() * 15, // 38-53%
+        light: 500 + Math.random() * 500, // 500-1000 lux
         nitrogen: 110 + Math.random() * 30, // 110-140 ppm
         phosphorus: 40 + Math.random() * 20, // 40-60 ppm
         potassium: 170 + Math.random() * 30 // 170-200 ppm
@@ -898,7 +898,7 @@
       demoData.temperature = Math.round(demoData.temperature);
       demoData.humidity = Math.round(demoData.humidity);
       demoData.ph = demoData.ph.toFixed(1);
-      demoData.fertilizer = Math.round(demoData.fertilizer);
+      demoData.light = Math.round(demoData.light);
       demoData.nitrogen = Math.round(demoData.nitrogen);
       demoData.phosphorus = Math.round(demoData.phosphorus);
       demoData.potassium = Math.round(demoData.potassium);
@@ -934,7 +934,7 @@
       const temp = data.temp || data.soil_temp || data.temperature || 0;
       const humidity = data.humidity || data.soilHumidity || 0;
       const ph = data.soil_ph || data.ph || data.soilPH || 0;
-      const fertilizer = data.soil_npk || data.fertilizer || 0;
+      const light = data.light || data.light || 0;
       const nitrogen = data.nitrogen || Math.round((data.soil_npk || 200) * 0.45);
 
       const phosphorus = data.phosphorus || Math.round((data.soil_npk || 200) * 0.20);
@@ -947,7 +947,7 @@
       document.getElementById('soilTemp').textContent = temp + ' °C';
       document.getElementById('soilHumidity').textContent = humidity + ' %';
       document.getElementById('soilPh').textContent = ph;
-      document.getElementById('fertilizer').textContent = fertilizer + ' %';
+      document.getElementById('fertilizer').textContent = light + ' lux';
       document.getElementById('nitrogen').textContent = nitrogen + ' ppm';
       document.getElementById('phosphorus').textContent = phosphorus + ' ppm';
       document.getElementById('potassium').textContent = potassium + ' ppm';
