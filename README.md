@@ -1,9 +1,21 @@
 <div align="center">
 
-# 🌾 KrishiMitra-AI
+<!-- Animated wave banner (auto-generated, no static asset needed) -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2E7D32,100:FFC107&height=220&section=header&text=KrishiMitra-AI&fontSize=60&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=🌾%20Krishi%20Mitra%20—%20%22Farmer's%20Friend%22&descAlignY=58&descSize=20" alt="KrishiMitra-AI banner"/>
 
-### *Krishi Mitra — "Farmer's Friend"*
-### An integrated farm-tech platform bringing IoT soil sensing, farmer profiles, live weather & market data, and AI-assisted crop tools together in one place.
+<!-- Animated typing tagline -->
+<a href="https://github.com/ChandraBihariDas/KrishiMitra-AI">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=2E7D32&center=true&vCenter=true&width=750&lines=IoT+Soil+Sensing+%2B+Farmer+Profiles;Live+Weather+%26+Mandi+Market+Data;AI-Assisted+Crop+Yield+%26+Soil+Tools;Built+for+Smart+India+Hackathon+2025+🇮🇳" alt="Typing SVG"/>
+</a>
+
+<br/>
+
+<!-- Quick-access buttons -->
+<a href="https://krishimitra-ai-app.vercel.app/"><img src="https://img.shields.io/badge/🚀_Live_Demo-Visit_App-2E7D32?style=for-the-badge" /></a>
+<a href="https://github.com/ChandraBihariDas/KrishiMitra-AI"><img src="https://img.shields.io/badge/📂_Source-GitHub_Repo-181717?style=for-the-badge&logo=github" /></a>
+<a href="#-installation"><img src="https://img.shields.io/badge/⚙_Setup-Get_Started-FFC107?style=for-the-badge" /></a>
+
+<br/><br/>
 
 [![License](https://img.shields.io/github/license/ChandraBihariDas/KrishiMitra-AI?style=for-the-badge)](#-license)
 [![Stars](https://img.shields.io/github/stars/ChandraBihariDas/KrishiMitra-AI?style=for-the-badge&color=yellow)](https://github.com/ChandraBihariDas/KrishiMitra-AI/stargazers)
@@ -12,6 +24,9 @@
 [![Last Commit](https://img.shields.io/github/last-commit/ChandraBihariDas/KrishiMitra-AI?style=for-the-badge)](https://github.com/ChandraBihariDas/KrishiMitra-AI/commits/main)
 [![Repo Size](https://img.shields.io/github/repo-size/ChandraBihariDas/KrishiMitra-AI?style=for-the-badge)](#)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=for-the-badge)](#-contributing)
+![Visitors](https://komarev.com/ghpvc/?username=ChandraBihariDas&label=Repo%20Views&color=2E7D32&style=for-the-badge)
+
+<br/>
 
 [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)](#)
 [![Express](https://img.shields.io/badge/Express%205-000000?style=for-the-badge&logo=express&logoColor=white)](#)
@@ -19,38 +34,54 @@
 [![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)](#)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap%205-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](#)
 [![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)](#)
+[![Vercel](https://img.shields.io/badge/Deployed_on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://krishimitra-ai-app.vercel.app/)
+
+</div>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="100%">
+</div>
+
+---
+
+<div align="center">
+
+### 🏆 Smart India Hackathon 2025
+
+| Field | Value |
+|---|---|
+| **Problem Statement ID** | 25044 |
+| **Title** | AI-Powered Crop Yield Prediction and Optimization |
+| **Theme** | Agriculture, FoodTech & Rural Development |
+| **Category** | Software |
+| **Team** | KrishiMitra-AI (Team ID 65681) |
 
 </div>
 
 ---
 
-## 📸 Project Banner
-
-> No `assets/banner.png` currently exists in the repository. Recommended location and placeholder:
-
-```markdown
-![KrishiMitra-AI Banner](assets/banner.png)
-```
-
-<sub>Drop a 1280×640 banner at `assets/banner.png` and this placeholder will render it automatically.</sub>
-
----
-
 ## 📑 Table of Contents
 
+<details open>
+<summary>Click to expand / collapse</summary>
+
 - [About the Project](#-about-the-project)
+- [The Problem We're Solving](#-the-problem-were-solving)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
 - [Architecture](#-architecture)
 - [Folder Structure](#-folder-structure)
 - [Installation](#-installation)
 - [Environment Variables](#-environment-variables)
-- [Screenshots](#-screenshots)
+- [Screenshots & Prototype](#-screenshots--prototype)
 - [Usage Guide](#-usage-guide)
 - [API Documentation](#-api-documentation)
 - [Database](#-database)
-- [AI Section](#-ai-section)
+- [AI Section — Honest Status](#-ai-section--honest-status)
 - [Workflow Diagrams](#-workflow-diagrams)
+- [Feasibility & Viability](#-feasibility--viability)
+- [Impact & Benefits](#-impact--benefits)
+- [Hardware Prototype](#-hardware-prototype)
 - [Performance Notes](#-performance-notes)
 - [Security](#-security)
 - [Deployment](#-deployment)
@@ -61,126 +92,148 @@
 - [Acknowledgements](#-acknowledgements)
 - [Author](#-author)
 
+</details>
+
 ---
 
 ## 🧭 About the Project
 
-**KrishiMitra-AI** ("Krishi" = agriculture, "Mitra" = friend, in Hindi) is a farm-tech web platform aimed at giving Indian farmers a single, mobile-friendly place to manage their farm profile, monitor real-time field conditions via IoT sensors, check weather and mandi (market) prices, and explore AI-assisted crop tools.
+**KrishiMitra-AI** ("Krishi" = agriculture, "Mitra" = friend, in Hindi) is a farm-tech web platform built for **Smart India Hackathon 2025** that gives Indian farmers a single, mobile-friendly place to manage their farm profile, monitor real-time field conditions via IoT sensors, check weather and mandi (market) prices, and explore AI-assisted crop tools.
 
-**What problem it solves:** Farmers today juggle multiple disconnected sources — a weather app, a mandi price board, word-of-mouth pest/soil advice, and paper records of past harvests. KrishiMitra-AI brings profile management, live field telemetry, and market/weather intelligence into one dashboard.
+🔗 **Live App:** [krishimitra-ai-app.vercel.app](https://krishimitra-ai-app.vercel.app/)
+🔗 **Source Code:** [github.com/ChandraBihariDas/KrishiMitra-AI](https://github.com/ChandraBihariDas/KrishiMitra-AI)
 
-**Who it helps:** Smallholder and mid-size farmers, agricultural extension workers, and hackathon/demo audiences evaluating IoT-driven precision agriculture concepts.
-
-**Why it was built:** To demonstrate how low-cost IoT sensors (soil moisture, pH, NPK, temperature, humidity, gas, light) can feed directly into a web dashboard farmers already use for profile and market data — with a roadmap toward full AI-driven recommendations.
-
-**Major benefits:**
-- One login for profile, live sensor data, and farm tools
-- Real hardware-to-cloud IoT pipeline already working end-to-end
-- Multi-language interface for regional accessibility
-- Clear, honest groundwork for AI features (see [AI Section](#-ai-section)) to build on
+> **The problem:** Farmers today juggle multiple disconnected sources — a weather app, a mandi price board, word-of-mouth pest/soil advice, and paper records of past harvests. KrishiMitra-AI unifies profile management, live field telemetry, and market/weather intelligence into one dashboard, reachable even without a smartphone via SMS/IVR.
 
 > [!NOTE]
-> This README was generated directly from a full analysis of the repository's actual code — nothing below is assumed or invented. Where a feature is still a UI prototype rather than a live/AI-backed feature, it's labeled as such.
+> This README documents both the **hackathon vision/pitch** (multilingual voice, SMS/IVR, Gemini-AI crop engine, IoT hardware) and the **current working repository state** side by side. Where a pitched feature is still a UI prototype rather than a live/AI-backed one, it is clearly labeled so contributors know exactly what's implemented vs. planned.
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/ChandraBihariDas/ChandraBihariDas/main/pixel-farm.gif" width="1" height="1" alt=""/>
+</div>
+
+---
+
+## 🌱 The Problem We're Solving
+
+<div align="center">
+
+| 🌩️ Core Problem | 🕳️ Information Gap | 💰 Market Disconnect | 📵 Technology Barrier |
+|:---:|:---:|:---:|:---:|
+| Unpredictable weather (sudden rains/droughts) increases crop-failure risk | No single trustworthy source for soil health, cropping patterns & forecasts | Farmers lack visibility into fair prices & the right buyers | Many farmers still lack smartphones or high-speed internet |
+
+</div>
+
+**KrishiMitra-AI's answer to each challenge:**
+
+```mermaid
+graph LR
+    A["🌩️ Unpredictable Weather"] -->|AI-based Forecasting| B["✅ Real-time weather + AI crop planning"]
+    C["🧪 Soil Degradation"] -->|Smart Crop Rotation| D["✅ Soil-health monitoring & rotation advice"]
+    E["💸 Limited Market Access"] -->|Market Price Integration| F["✅ Live mandi prices & demand trends"]
+    G["📵 Digital Divide"] -->|Multilingual SMS/IVR| H["✅ Voice + SMS access, no smartphone needed"]
+
+    style A fill:#ffcdd2,stroke:#c62828
+    style C fill:#ffe0b2,stroke:#ef6c00
+    style E fill:#fff9c4,stroke:#f9a825
+    style G fill:#c8e6c9,stroke:#2e7d32
+    style B fill:#c8e6c9,stroke:#2e7d32
+    style D fill:#c8e6c9,stroke:#2e7d32
+    style F fill:#c8e6c9,stroke:#2e7d32
+    style H fill:#c8e6c9,stroke:#2e7d32
+```
 
 ---
 
 ## ✨ Features
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
 ### 🔐 Authentication
-- Phone number + password registration and login (`/api/user`)
-- Passwords hashed with **bcrypt**; sessions authenticated via **JWT**
-- Client-side validation (10-digit phone, 8+ character password) before submit
+- Phone number + password registration/login (`/api/user`)
+- Passwords hashed with **bcrypt**; sessions via **JWT**
+- Client-side validation (10-digit phone, 8+ char password)
 
 ### 🌐 Multi-language UI
-- Login page ships full translations for **English, Hindi, Marathi, Tamil, Telugu, and Bengali**, switchable via a stored language preference
+- Login page ships full translations for **English, Hindi, Marathi, Tamil, Telugu & Bengali**
 
 ### 👤 Farmer Profiles
-- Full CRUD (`/api/farmers`): create, search (with pagination + crop filter), fetch by ID or phone, update, delete
-- Profile photo upload straight to **Cloudinary** (6MB limit, images only)
+- Full CRUD (`/api/farmers`) — create, search + pagination + crop filter, fetch by ID/phone, update, delete
+- Profile photo upload to **Cloudinary** (6MB limit, images only)
 - Past-season history tracking (crop, year, yield)
 
-### 🛰 IoT Integration (live)
-- Dedicated ingestion endpoint (`/api/iot/data`) accepts real sensor telemetry: temperature, humidity, light, gas, soil temperature, soil moisture, soil pH, and soil NPK
-- **IoT Sensor Dashboard** (`datatake.html`) and a combined **Deep Analysis Dashboard** (`check2.html`) render the latest/historical readings live via gauges and Chart.js graphs
+### 🛰 IoT Integration *(live)*
+- Ingestion endpoint (`/api/iot/data`) for temp, humidity, light, gas, soil temp/moisture/pH/NPK
+- **IoT Sensor Dashboard** (`datatake.html`) + **Deep Analysis Dashboard** (`check2.html`) render live gauges & Chart.js graphs
 
-### 🌦 Weather & 📈 Market Data (live, inside the Deep Analysis Dashboard)
-- `check2.html` calls the **OpenWeatherMap API** directly for current conditions + forecast
-- `check2.html` calls **data.gov.in's Open Government Data API** for real commodity market prices
+</td>
+<td width="50%" valign="top">
 
-### 🌾 Crop, Soil & Yield Tools (UI prototype today)
-- Crop Yield Prediction, Soil Analysis, and Yield Optimization pages have fully built dashboards and charts — currently populated with **simulated/random demo values** rather than a trained model or live sensor tie-in (see [AI Section](#-ai-section))
+### 🌦 Weather & 📈 Market Data *(live)*
+- `check2.html` calls **OpenWeatherMap** for current conditions + forecast
+- `check2.html` calls **data.gov.in Open Government Data** for real mandi/commodity prices
+
+### 🌾 Crop, Soil & Yield Tools *(UI prototype today)*
+- Crop Yield Prediction, Soil Analysis & Yield Optimization have full dashboards/charts, currently on **simulated demo values** — see [AI Section](#-ai-section--honest-status)
 
 ### 🛒 Marketplace & 🏛 Subsidies
-- `market.html` — product listing UI (no checkout wired up yet)
-- `subsidies.html` — static informational content on government schemes
+- `market.html` — product listing UI (checkout not wired up yet)
+- `subsidies.html` — static info on government schemes
 
-### 📱 Responsive, Multi-page UI
-- Built with Bootstrap 5 and vanilla JavaScript; no framework/build step required for the frontend
+### 📱 Responsive UI
+- Bootstrap 5 + vanilla JS — no build step required
 
 ### ☁ Cloud-backed Media
-- All profile photos are served from Cloudinary's CDN rather than the app server
+- Profile photos served from Cloudinary's CDN
+
+</td>
+</tr>
+</table>
 
 > [!TIP]
-> Declared-but-not-yet-wired-up: **Razorpay** and **Stripe** SDKs and **node-cron** are present in `backend/package.json` but aren't imported anywhere in the codebase yet — they look like the intended foundation for payments and scheduled jobs. See [Roadmap](#-roadmap).
+> **Declared-but-not-yet-wired-up:** `Razorpay`, `Stripe`, and `node-cron` are already dependencies in `backend/package.json` but aren't imported anywhere yet — they're the intended foundation for payments and scheduled jobs. See [Roadmap](#-roadmap).
+
+> [!TIP]
+> **Pitched vision (from the hackathon deck):** Gemini-AI powered chatbot with live audio, full SMS/IVR support, NVIDIA Jetson Nano + solar-powered hardware node with LoRa/GSM connectivity, and Deep Learning–based pest/disease detection from camera images. These represent the product's north star — see [Hardware Prototype](#-hardware-prototype) and [Roadmap](#-roadmap) for what's built vs. planned.
 
 ---
 
 ## 🛠 Tech Stack
 
-### Frontend
-| Technology | Purpose |
-|---|---|
-| HTML5 / CSS3 | Static multi-page structure |
-| Bootstrap 5.3 (CDN) | Layout & UI components |
-| Vanilla JavaScript | Page logic, form handling, API calls |
-| Chart.js | Dashboard graphs (soil, yield, farm management, pest/soil pages) |
-| Font Awesome | Iconography |
+<div align="center">
 
-### Backend
-| Technology | Purpose |
-|---|---|
-| Node.js | Runtime |
-| Express 5 | REST API framework (ES Modules) |
-| CORS | Cross-origin support |
-| dotenv | Environment variable loading |
-| nodemon | Dev auto-reload |
+### Current Repository Stack
 
-### Database
-| Technology | Purpose |
-|---|---|
-| MongoDB | Primary datastore |
-| Mongoose | ODM — schemas for users, profiles, IoT readings |
+</div>
 
-### AI / ML
-| Technology | Purpose |
-|---|---|
-| — | No ML library, model file, or training pipeline is present in this repository today. Crop/soil/yield pages currently simulate output client-side. See [AI Section](#-ai-section). |
+| Layer | Technology | Purpose |
+|---|---|---|
+| **Frontend** | HTML5, CSS3, Bootstrap 5.3 (CDN), Vanilla JS, Chart.js, Font Awesome | Multi-page UI, dashboards, graphs, icons |
+| **Backend** | Node.js, Express 5 (ES Modules), CORS, dotenv, nodemon | REST API, env config, dev auto-reload |
+| **Database** | MongoDB + Mongoose | Users, profiles, IoT readings |
+| **Media** | Cloudinary SDK + Multer (in-memory) | Profile photo storage/CDN |
+| **Auth** | jsonwebtoken (JWT), bcrypt, validator | Session tokens, password hashing, phone validation |
+| **External APIs** | OpenWeatherMap, data.gov.in Open Gov. Data | Live weather + mandi market prices |
+| **Deployment** | Vercel (`vercel.json`), Render (`krishimitra-ai-wpik.onrender.com`) | Serverless + live backend hosting |
 
-### External APIs
-| API | Purpose |
-|---|---|
-| OpenWeatherMap | Current + forecast weather (used in the Deep Analysis Dashboard) |
-| data.gov.in (Open Government Data) | Commodity/mandi market prices |
+<div align="center">
 
-### Authentication
-| Technology | Purpose |
-|---|---|
-| jsonwebtoken (JWT) | Issuing session tokens on login/register |
-| bcrypt | Password hashing |
-| validator | Phone number format validation |
+### 🧭 Pitched / Target Stack (Hackathon Vision)
 
-### Deployment
-| Technology | Purpose |
-|---|---|
-| Vercel (`vercel.json`) | Serverless deployment config included for the backend |
-| Render | The live backend referenced by the frontend is hosted at `krishimitra-ai-wpik.onrender.com` |
+</div>
 
-### Developer Tools
-| Technology | Purpose |
-|---|---|
-| Multer | In-memory file upload handling |
-| Cloudinary SDK | Image storage/CDN |
-| Git | Version control |
+| Layer | Planned Technology | Purpose |
+|---|---|---|
+| **AI/ML Core** | Gemini AI, TensorFlow, PyTorch | Crop recommendation, yield & soil-health prediction |
+| **Computer Vision** | Deep Learning models | Real-time pest/disease detection from images |
+| **Hardware** | NVIDIA Jetson Nano, 7-in-1 NPK sensor, DHT11, MQ-135, GSM SIM800A, LoRa, Solar charge controller | Field-deployable sensor node |
+| **Connectivity** | SMS / Call / IVR system | Access for farmers without smartphones |
+| **Infra** | AWS / Google Cloud | Scalable hosting |
+
+> [!NOTE]
+> No ML library, model file, or training pipeline exists in the repository **today** — the AI/ML row above reflects the hackathon roadmap, not shipped code. See [AI Section](#-ai-section--honest-status) for the honest, code-verified status.
 
 ---
 
@@ -232,7 +285,7 @@ graph TD
 ## 📁 Folder Structure
 
 <details>
-<summary><strong>Click to expand full tree</strong></summary>
+<summary><strong>📂 Click to expand full tree</strong></summary>
 
 ```
 KrishiMitra-AI/
@@ -266,7 +319,7 @@ KrishiMitra-AI/
 │   ├── datatake.html             # IoT sensor dashboard (live)
 │   ├── farm_management.html      # Task/calendar UI (client-side only, no persistence yet)
 │   ├── forgot.html               # Forgot-password UI
-│   ├── index.html                # Main landing page (byte-identical to test.html)
+│   ├── index.html                # Main landing page
 │   ├── irrigation.html           # "Coming soon" placeholder
 │   ├── login.html / login.js     # Auth UI + logic (multi-language)
 │   ├── market.html               # Marketplace product-listing UI
@@ -277,7 +330,6 @@ KrishiMitra-AI/
 │   ├── signup.html               # Registration UI (backend-connected)
 │   ├── soil_analysis.html        # Soil analysis UI (simulated output)
 │   ├── subsidies.html            # Government scheme info (static)
-│   ├── test.html                 # Duplicate of index.html
 │   ├── weather_forecast.html     # Standalone weather UI (simulated output)
 │   └── yield.html                # Yield planning UI (simulated output)
 └── .gitignore
@@ -286,9 +338,8 @@ KrishiMitra-AI/
 </details>
 
 **Notable structural points found during analysis:**
-- `index.html` and `test.html` are byte-for-byte identical.
-- `pest_detection.html` currently renders the same content as `soil_analysis.html` — pest detection isn't a distinct feature yet.
-- There are two dashboard entry points: the main site (`index.html`) for auth/profile/tools, and a second flow (`next.html → check2.html` / `datatake.html`) for live IoT + weather + market data.
+- `pest_detection.html` currently renders the same content as `soil_analysis.html` — pest detection isn't a distinct feature yet in the live repo (though it's a target Deep Learning feature in the pitch).
+- Two dashboard entry points: the main site (`index.html`) for auth/profile/tools, and a second flow (`next.html → check2.html` / `datatake.html`) for live IoT + weather + market data.
 - No `.github/workflows`, `Dockerfile`, `requirements.txt`, or `LICENSE` file exist in the repository today.
 
 ---
@@ -332,6 +383,8 @@ npx serve .
 > [!IMPORTANT]
 > Several frontend files currently hardcode the **live Render URL** (`https://krishimitra-ai-wpik.onrender.com`) instead of reading it from config — this affects `login.js`, `signup.html`, `profile.html`, and `datatake.html`/`check2.html`. For local development against your own backend, update those URLs to `http://localhost:4000` (the config modal in `check2.html` already lets you override the IoT endpoint at runtime).
 
+> 💡 **Prefer one click?** The live, always-on version is already deployed at **[krishimitra-ai-app.vercel.app](https://krishimitra-ai-app.vercel.app/)** — no setup required to explore the UI.
+
 ---
 
 ## 🔑 Environment Variables
@@ -356,23 +409,35 @@ CLOUDINARY_FOLDER=farmers_profiles
 ```
 
 | Variable | Required | Description |
-|---|---|---|
+|---|:---:|---|
 | `PORT` | No (defaults to `4000`) | Port the Express server listens on |
-| `MONGODB_URI` | **Yes** | MongoDB connection string; the app appends `/KrishiMitra-AI` as the database name |
-| `JWT_SECRET` | **Yes** | Secret used to sign/verify login tokens |
-| `CLOUDINARY_NAME` | **Yes** | Cloudinary cloud name |
-| `CLOUDINARY_API_KEY` | **Yes** | Cloudinary API key |
-| `CLOUDINARY_SECRET_KEY` | **Yes** | Cloudinary API secret |
+| `MONGODB_URI` | ✅ | MongoDB connection string; app appends `/KrishiMitra-AI` as the database name |
+| `JWT_SECRET` | ✅ | Secret used to sign/verify login tokens |
+| `CLOUDINARY_NAME` | ✅ | Cloudinary cloud name |
+| `CLOUDINARY_API_KEY` | ✅ | Cloudinary API key |
+| `CLOUDINARY_SECRET_KEY` | ✅ | Cloudinary API secret |
 | `CLOUDINARY_FOLDER` | No (defaults to `farmers_profiles`) | Cloudinary folder profile photos are uploaded into |
 
 > [!WARNING]
-> The live frontend (`check2.html`) currently has an **OpenWeatherMap API key hardcoded in client-side JavaScript**, and `check2.html` also calls data.gov.in with its publicly-documented sample key. Neither is read from an environment variable today. Since this is a public repository, treat the OpenWeatherMap key as compromised — rotate it and move weather/market calls behind the backend (reading the key from `.env`) rather than shipping it in the browser.
+> The live frontend (`check2.html`) currently has an **OpenWeatherMap API key hardcoded in client-side JavaScript**, and also calls data.gov.in with its publicly-documented sample key. Neither is read from an environment variable today. Since this is a public repository, treat the OpenWeatherMap key as compromised — rotate it and move weather/market calls behind the backend (reading the key from `.env`) rather than shipping it in the browser.
 
 ---
 
-## 🖼 Screenshots
+## 🖼 Screenshots & Prototype
 
-No screenshots currently exist in the repository. Recommended placeholders once captured:
+<div align="center">
+
+**Login → Dashboard Flow**
+
+*(from the SIH pitch deck prototype)*
+
+| Login | Dashboard | Crop Prediction |
+|:---:|:---:|:---:|
+| Phone + password sign-in, multilingual | Feature-card hub: Crop Prediction, Weather, Market, Pest, Soil, Yield, Irrigation, Farm Mgmt | AgriStack-style yield predictor form |
+
+</div>
+
+Recommended screenshot locations once captured (repo currently has none):
 
 | Page | Suggested path |
 |---|---|
@@ -380,7 +445,7 @@ No screenshots currently exist in the repository. Recommended placeholders once 
 | Login / Signup | `docs/screenshots/login.png` |
 | Farmer Profile | `docs/screenshots/profile.png` |
 | IoT Dashboard | `docs/screenshots/iot-dashboard.png` |
-| Deep Analysis Dashboard (weather + market + IoT) | `docs/screenshots/dashboard.png` |
+| Deep Analysis Dashboard | `docs/screenshots/dashboard.png` |
 | Crop Prediction | `docs/screenshots/prediction.png` |
 | Marketplace | `docs/screenshots/marketplace.png` |
 
@@ -396,9 +461,9 @@ No screenshots currently exist in the repository. Recommended placeholders once 
 1. **Sign up** on `signup.html` with your name, 10-digit phone number, and a password (8+ characters).
 2. **Log in** on `login.html` — choose your preferred language (English, Hindi, Marathi, Tamil, Telugu, or Bengali); on success you're redirected to `next.html`.
 3. **Build your farmer profile** (`profile.html`): location, farm size, crops grown, bio, past-season yield history, and a profile photo (stored on Cloudinary).
-4. **Connect IoT hardware** (optional): point your sensor device at `POST /api/iot/data` to start streaming temperature, humidity, light, gas, and soil readings into `datatake.html` / `check2.html`.
-5. **Explore farm tools**: Crop Yield Prediction, Soil Analysis, Yield Optimization, Farm Management, Market Prices, Subsidies, and the Marketplace — note that the crop/soil/yield tools currently display illustrative demo output rather than live model predictions (see [AI Section](#-ai-section)).
-6. **View the Deep Analysis Dashboard** (`check2.html`) for a single screen combining live IoT telemetry, live weather (OpenWeatherMap), and live market prices (data.gov.in).
+4. **Connect IoT hardware** *(optional)*: point your sensor device at `POST /api/iot/data` to start streaming live readings into `datatake.html` / `check2.html`.
+5. **Explore farm tools**: Crop Yield Prediction, Soil Analysis, Yield Optimization, Farm Management, Market Prices, Subsidies, and the Marketplace — note that the crop/soil/yield tools currently display illustrative demo output rather than live model predictions.
+6. **View the Deep Analysis Dashboard** (`check2.html`) for a single screen combining live IoT telemetry, live weather, and live market prices.
 
 ---
 
@@ -531,14 +596,14 @@ MongoDB via Mongoose, database name `KrishiMitra-AI`. Three collections:
 | `nitrogen`, `phosphorus`, `potassium` | Number | required on the schema — see note below |
 | `timestamp` | Date | defaults to `Date.now` |
 
-**Relationships:** collections are independent (no `ref`/populate links) — `profiles` are matched to a farmer by `phone` at the application layer rather than a foreign key.
+**Relationships:** collections are independent (no `ref`/populate links) — `profiles` are matched to a farmer by `phone` at the application layer.
 
 > [!NOTE]
-> The `IotSensorData` schema requires `nitrogen`, `phosphorus`, and `potassium`, but the current `POST /api/iot/data` handler only reads `temp, humidity, light, gas, soil_temp, soil_moisture, soil_ph, soil_npk` from the request body — the three NPK-breakdown fields aren't currently being passed through from incoming sensor payloads. Flagged in [Roadmap](#-roadmap).
+> The `IotSensorData` schema requires `nitrogen`, `phosphorus`, and `potassium`, but the current `POST /api/iot/data` handler only reads `temp, humidity, light, gas, soil_temp, soil_moisture, soil_ph, soil_npk` — the NPK-breakdown fields aren't currently passed through from incoming sensor payloads. Flagged in [Roadmap](#-roadmap).
 
 ---
 
-## 🤖 AI Section
+## 🤖 AI Section — Honest Status
 
 **Current state (verified from code):** there is no ML model file, training script, or inference library anywhere in this repository. The three AI-flavored tools work like this today:
 
@@ -548,13 +613,16 @@ MongoDB via Mongoose, database name `KrishiMitra-AI`. Three collections:
 | Soil Analysis | NPK and recommendation values are randomly generated in-browser |
 | Yield Optimization & Planning | Chart data (uptake, water use, projections) is randomly generated in-browser |
 
-**Intended purpose:** give farmers a fast, visual read on expected yield, soil nutrient status, and planning guidance — with the IoT sensor pipeline (already live) as the natural real-data input once a model is wired in.
+**Hackathon vision (per the pitch deck):** a **Gemini AI**-powered core engine performing predictive analysis on IoT + profile + market data, with a separate **Vision AI / Deep Learning** model for real-time pest and disease detection from camera images, all delivered through a live audio chat interface.
 
 **What's already in place to build on:**
 - A working ingestion pipeline for real soil/environmental sensor data (`/api/iot`)
 - A farmer profile with historical yield-by-crop-by-year data — a natural training feature set
+- Two research references identified for the modeling approach:
+  - *Integrating Climate Management and Remote Sensing Data for Crop Yield Estimation with Multimodal Vision Transformers*
+  - *Multimodal Data Fusion and Deep Ensemble Learning for Accurate Crop Yield Prediction*
 
-**Not yet available:** training data/pipeline, a served model, or an accuracy figure — so none is claimed here. See [Roadmap](#-roadmap) for the natural next step (replacing the simulated outputs with a model trained on the IoT + profile history data already being collected).
+**Not yet available:** training data/pipeline, a served model, or an accuracy figure — so none is claimed here. See [Roadmap](#-roadmap) for the natural next step (replacing simulated outputs with a model trained on the IoT + profile history data already being collected).
 
 ---
 
@@ -583,17 +651,6 @@ sequenceDiagram
         A-->>F: { success: false, message }
         F-->>U: Show error alert
     end
-```
-
-**Crop Prediction (current implementation)**
-```mermaid
-sequenceDiagram
-    actor U as Farmer
-    participant P as crop_prediction.html
-    Note over P: No backend or model call today
-    U->>P: Enter crop + field details
-    P->>P: predictedYield = random(35–55)
-    P-->>U: Display simulated prediction
 ```
 
 **IoT Data Flow**
@@ -638,6 +695,89 @@ sequenceDiagram
     D->>D: Render unified dashboard
 ```
 
+**Pitched Full-Stack Data Pipeline (Vision)**
+```mermaid
+graph LR
+    A[🛰 IoT Soil Sensors] --> D[Data Fusion & MongoDB]
+    B[🌦 Weather API] --> D
+    C[📈 AgriMarket API] --> D
+    D --> E["🧠 Gemini AI Engine<br/>(soil, crop, yield, sustainability)"]
+    D --> F["👁 Vision AI<br/>(disease detection)"]
+    E --> G[📱 App / Web]
+    E --> H[📟 SMS / IVR]
+    F --> G
+```
+
+---
+
+## 📊 Feasibility & Viability
+
+<div align="center">
+
+| Dimension | Highlights |
+|---|---|
+| **Technical** | IoT sensors (pH, fertility, moisture) · Weather APIs (IMD, OpenWeather) · AI models tested in agriculture (Gemini, TensorFlow, PyTorch) · Multilingual + offline app support |
+| **Economical** | Low-cost IoT hardware · Cloud/API freemium tiers · Higher farmer income via better crop choices · Govt subsidies & partnerships |
+| **Operational** | Simple local-language app (text & voice) · Auto-collected soil/weather/market data · Farmers just view recommendations & act |
+
+</div>
+
+**Market opportunity:** India has ~150M farmers (≈65.4% classified as marginal farmers per the 2015–16 Agriculture Census), with the AgriTech market projected to reach **$34B by 2027**. Even 1% penetration (~1.5M farmers) at a ₹50/month subscription represents ≈₹900 Cr (~$110M/year) in potential revenue.
+
+**Key risks & mitigations:**
+
+```mermaid
+graph LR
+    A1["💰 High IoT device cost"] --> B1["Subsidized / shared devices"]
+    A2["📶 Poor rural connectivity"] --> B2["Offline-first app + local storage"]
+    A3["⚙️ Sensor accuracy issues"] --> B3["Error detection + satellite fallback"]
+    A4["🙅 Farmer resistance / low awareness"] --> B4["Awareness campaigns + Govt/NGO partnerships"]
+    A5["🗣 Language barriers"] --> B5["Multilingual app + SMS/IVR"]
+```
+
+---
+
+## 🌾 Impact & Benefits
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**💰 Economic Impact**
+- Higher income via better yields/market prices
+- Reduced input costs (fertilizer, pesticides, seeds)
+- Better margins by cutting wastage
+
+**🤝 Social Impact**
+- Improved lifestyle & living standards
+- Builds confidence and decision-making power
+- Enhances community collaboration & knowledge sharing
+
+</td>
+<td width="50%" valign="top">
+
+**🌍 Environmental Impact**
+- Reduces harmful chemical use
+- Improves soil health, water conservation & biodiversity
+- Promotes sustainable farming
+
+**💡 Technological & Educational Impact**
+- Access to modern AI tools, sensors, automation
+- Precision farming (right crop, right time, right quantity)
+- Digital literacy & data-driven decision-making
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🔧 Hardware Prototype
+
+*(from the pitch deck — target field hardware, not part of the current web repo)*
+
+The pitched hardware node centers on an **NVIDIA Jetson Nano** collecting readings from a 7-in-1 NPK sensor, DHT temp/humidity sensors, MQ-135 air-quality sensor, sunlight, wind and rain sensors, plus a connected camera for AI-based pest recognition. Data is compiled and sent over **LoRa** to a cloud sync layer, with a **GSM SIM800A** module handling SMS alerts to farmers when sensor thresholds are met. The whole unit is designed to run off a **solar charge controller** for field deployment without grid power.
+
 ---
 
 ## ⚡ Performance Notes
@@ -645,7 +785,7 @@ sequenceDiagram
 Optimizations actually present in the codebase:
 - `Profile.find()` list queries use `.lean()` for lighter-weight reads
 - Pagination (`page`/`limit`, capped at 200 per page) on the profiles list endpoint
-- Profile photos are offloaded to **Cloudinary's CDN** rather than served from the app
+- Profile photos offloaded to **Cloudinary's CDN** rather than served from the app
 - Upload payloads capped (`multer` 6MB, JSON body limit `8mb`)
 
 Not yet present: response caching, database indexes beyond MongoDB's default `_id`, or lazy-loading on the frontend — good candidates for the [Roadmap](#-roadmap).
@@ -671,9 +811,19 @@ Not yet present: response caching, database indexes beyond MongoDB's default `_i
 
 ## 🚀 Deployment
 
+<div align="center">
+
+| Environment | URL |
+|---|---|
+| 🌐 **Live App (production)** | [krishimitra-ai-app.vercel.app](https://krishimitra-ai-app.vercel.app/) |
+| 🔧 **Backend (Render)** | `krishimitra-ai-wpik.onrender.com` |
+| 📂 **Source Repository** | [github.com/ChandraBihariDas/KrishiMitra-AI](https://github.com/ChandraBihariDas/KrishiMitra-AI) |
+
+</div>
+
 **Backend**
 - A `vercel.json` is included (Vercel serverless function targeting `server.js`)
-- The frontend's hardcoded API calls point to a live instance on **Render**: `https://krishimitra-ai-wpik.onrender.com`
+- The frontend's hardcoded API calls also point to a live instance on **Render**
 
 **Frontend**
 - Pure static HTML/CSS/JS with no build step — deployable as-is to GitHub Pages, Netlify, Vercel (static), or Render's static site hosting. Just update the hardcoded backend URLs to match your deployed API first.
@@ -698,14 +848,17 @@ Please keep PRs focused and include context on which part of the app (backend ro
 
 - [ ] Replace simulated Crop Yield Prediction output with a real trained model
 - [ ] Replace simulated Soil Analysis output with real computation/model
-- [ ] Build a genuinely distinct Pest Detection feature (currently mirrors Soil Analysis)
+- [ ] Build a genuinely distinct Pest Detection feature using Vision AI (currently mirrors Soil Analysis)
 - [ ] Ship the Irrigation Advice module (currently a "Coming Soon" placeholder)
+- [ ] Integrate Gemini AI as the core recommendation engine (per pitch)
 - [ ] Wire Razorpay/Stripe into an actual marketplace checkout flow
 - [ ] Wire up `node-cron` for scheduled jobs (e.g., periodic market-price refresh)
 - [ ] Fix `POST /api/iot/data` to pass through `nitrogen`, `phosphorus`, `potassium` from the request body
 - [ ] Enforce JWT verification on farmer-profile and IoT routes
 - [ ] Move the hardcoded OpenWeatherMap key and API base URLs into environment/config
 - [ ] Add rate limiting and a stricter CORS policy
+- [ ] Add SMS/IVR delivery channel for non-smartphone users
+- [ ] Deploy the Jetson Nano hardware node prototype to a live field test
 - [ ] Add a `LICENSE` file
 - [ ] Add automated tests and CI (GitHub Actions)
 - [ ] Persist Farm Management tasks/calendar server-side (currently client-only)
@@ -714,23 +867,47 @@ Please keep PRs focused and include context on which part of the app (backend ro
 
 ## ❓ FAQ
 
-**What is KrishiMitra-AI?**
-A farm-tech web platform combining farmer profile management, live IoT soil/environment sensing, and weather/market data in one dashboard, with AI-assisted crop tools in progress.
+<details>
+<summary><b>What is KrishiMitra-AI?</b></summary>
+<br/>
+A farm-tech web platform combining farmer profile management, live IoT soil/environment sensing, and weather/market data in one dashboard, with AI-assisted crop tools in progress. Built for Smart India Hackathon 2025.
+</details>
 
-**Do I need IoT hardware to use it?**
+<details>
+<summary><b>Do I need IoT hardware to use it?</b></summary>
+<br/>
 No — the IoT dashboard works with real sensors, but profile management, auth, and the demo crop/soil/yield tools work without any hardware.
+</details>
 
-**Are the crop prediction and soil analysis results real AI output right now?**
-Not yet — they currently display randomized demo values. See the [AI Section](#-ai-section) for exactly what's implemented today.
+<details>
+<summary><b>Are the crop prediction and soil analysis results real AI output right now?</b></summary>
+<br/>
+Not yet — they currently display randomized demo values. See the <a href="#-ai-section--honest-status">AI Section</a> for exactly what's implemented today vs. what's on the roadmap.
+</details>
 
-**Which languages does the UI support?**
+<details>
+<summary><b>Which languages does the UI support?</b></summary>
+<br/>
 The login page currently supports English, Hindi, Marathi, Tamil, Telugu, and Bengali.
+</details>
 
-**How is my data stored?**
+<details>
+<summary><b>How is my data stored?</b></summary>
+<br/>
 Profile and IoT data are stored in MongoDB; profile photos are stored on Cloudinary.
+</details>
 
-**Can I run my own instance?**
-Yes — see [Installation](#-installation) and [Environment Variables](#-environment-variables).
+<details>
+<summary><b>Can I try it without installing anything?</b></summary>
+<br/>
+Yes — visit the live deployment at <a href="https://krishimitra-ai-app.vercel.app/">krishimitra-ai-app.vercel.app</a>.
+</details>
+
+<details>
+<summary><b>Can I run my own instance?</b></summary>
+<br/>
+Yes — see <a href="#-installation">Installation</a> and <a href="#-environment-variables">Environment Variables</a>.
+</details>
 
 ---
 
@@ -750,6 +927,7 @@ Yes — see [Installation](#-installation) and [Environment Variables](#-environ
 - [data.gov.in](https://data.gov.in/) — Open Government Data Platform India, for market price data
 - [Bootstrap](https://getbootstrap.com/) & [Chart.js](https://www.chartjs.org/)
 - [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken), [bcrypt](https://github.com/kelektiv/node.bcrypt.js), [multer](https://github.com/expressjs/multer), [validator](https://github.com/validatorjs/validator.js)
+- Smart India Hackathon 2025 organizing committee
 
 ---
 
@@ -757,12 +935,13 @@ Yes — see [Installation](#-installation) and [Environment Variables](#-environ
 
 <div align="center">
 
-<img src="https://github.com/ChandraBihariDas.png" width="100" style="border-radius:50%" alt="Chandra Bihari Das" />
+<img src="https://github.com/ChandraBihariDas.png" width="110" style="border-radius:50%" alt="Chandra Bihari Das" />
 
 ### Chandra Bihari Das
 
 [![GitHub](https://img.shields.io/badge/GitHub-ChandraBihariDas-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChandraBihariDas)
-[![Repository](https://img.shields.io/badge/Repo-KrishiMitra--AI-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/KrishiMitra-AI)
+[![Repository](https://img.shields.io/badge/Repo-KrishiMitra--AI-2E7D32?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ChandraBihariDas/KrishiMitra-AI)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://krishimitra-ai-app.vercel.app/)
 
 </div>
 
@@ -771,5 +950,7 @@ Yes — see [Installation](#-installation) and [Environment Variables](#-environ
 <div align="center">
 
 **⭐ If this project is useful to you, consider starring the repository!**
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:FFC107,100:2E7D32&height=120&section=footer" alt="footer wave"/>
 
 </div>
