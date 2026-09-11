@@ -1,5 +1,5 @@
 <div align="center">
-
+<h1>piyush bopche</h1>
 <!-- Animated wave banner (auto-generated, no static asset needed) -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2E7D32,100:FFC107&height=220&section=header&text=KrishiMitra-AI&fontSize=60&fontColor=FFFFFF&fontAlignY=38&animation=fadeIn&desc=🌾%20Krishi%20Mitra%20—%20%22Farmer's%20Friend%22&descAlignY=58&descSize=20" alt="KrishiMitra-AI banner"/>
 
